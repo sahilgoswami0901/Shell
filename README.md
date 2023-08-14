@@ -1,11 +1,11 @@
-# Shell
+# Shell <img src="https://github.com/sahilgoswami0901/Shell/assets/107829550/ef2d0863-e890-4281-9984-6b87839f9400" width="35" height="35">
 Linux (and other Unix-like OSes) have shells,” or programs, which present
 a command-line interface for users to type commands in. In this assignment,
 you need to use standard C libraries, including Linux system calls such as
 fork(), exec() family system calls, and wait() family system calls.
 There are two kinds of commands: “internal” and “external”. Internal
 commands are those which are interpreted by the shell program itself, with
-out requiring a different program to handle the expected operations of the
+out, requiring a different program to handle the expected operations of the
 said command). Examples of internal commands are like ‘cd’, ‘pwd’, and exit.
 External commands, on the other hand, relate to commands which are not
 handled not directly by the shell program but by an external program. Common
@@ -35,3 +35,18 @@ the functionalities should remain the same. Note: you only need one set
 of external command programs which could be used with either versions
 of the shell, be it the that uses fork()/execl() or the one that uses
 pthread create()/system().
+
+# Deployment <img src="https://github.com/sahilgoswami0901/Shell/assets/107829550/ceb50133-aa69-4669-8ee9-ddcb05d61c3f" width="35" height="35">
+Execute below command to compile all C files given in folder:
+```bash
+  make 
+```
+After running above command, you will have object files of C files ready with you then run below command:
+```bash
+  ./code
+```
+# Need Help? <img src="https://github.com/sahilgoswami0901/Shopify/assets/107829550/4af264bb-3508-43cd-bc32-14317dad0dc6" width="35" height="35">
+Feel free to make bug reports on our issues. You can reach out to me in case you need further assistance.<br/>
+Contact us:<br/>
+<br/>
+🧠 Sahil Goswami: sahil21281@iiitd.ac.in <br/>
