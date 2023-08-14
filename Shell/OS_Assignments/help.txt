@@ -1,0 +1,49 @@
+Supported commands are as follows:
+
+INTERNAL COMMANDS:  options             Description
+
+1) echo command
+					echo string			(prints string)
+					echo --help			(prints echo help)
+
+2) exit command:	
+					exit					(for exitting shell)
+					exit --help				(for exit help)
+3) cd command
+					cd --help			(for help)
+					cd -				(for going to previous working directory)
+					cd ..				(for going to parent directory)
+
+4) pwd command
+					pwd					(for printing working directory)
+					pwd -L 				(for printing default working directory)
+					pwd --help			(for pwd help)
+
+
+
+EXTERNAL COMMANDS:
+
+1) rm command
+					rm filename			    (removing file fname)
+					rm -f filename			(removes the file forcefully)
+					rm -i filename			(asks user before removing filename)
+
+2) date command 
+					date				(prints current date and time)
+					date --help 		(prints help for date command)
+					date -u 			(prints current utc date and time)
+3) ls command
+					ls					(displays files present)
+					ls -R 				(recursively prints file directories)
+					ls -l				(prints all files separated by new line)
+
+
+4) mkdir command
+		 			mkdir fname			(creates fname directory)
+					mkdir --help		(prints mkdir help)
+					mkdir -v filename		(prints "created" after creating file)
+					mkdir -p filename/filename2		(makes filename2 in filename)
+5) cat command
+	 				cat	--help			(prints cat help)
+					cat -E filename 	(prints dollar after each line)
+					cat -n filename		(prints line number along with each line)

@@ -1,0 +1,3 @@
+date        		(print current date and time)
+date -u 			(print current utc date and time)
+date --help 		(print help)
